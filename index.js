@@ -23,8 +23,8 @@ winNumber.textContent = winCounter; //Перенеправлення лічил�
 const lossNumber = document.querySelector('.loss');
 lossNumber.textContent = lossCounter; //Перенеправлення лічильника невірної відповіді в html
 
-const winAudio = new Audio('./audio/win.wav');
-const lossAudio = new Audio('./audio/lose.wav');
+const winAudio = new Audio('./audio/win.wav'); //Аудіо для вірної відповіді
+const lossAudio = new Audio('./audio/lose.wav'); //Аудіо для невірної відповіді
 
 // Функція для генерації і присвоєння рандомного числа елементу
 function generateRandomNumber() {
