@@ -81,7 +81,7 @@ fizz.addEventListener('click', () => {
   setTimeout(() => {
     resetChanges(fizz);
     generateRandomNumber();
-  }, 1000);
+  }, 1500);
 });
 
 // Подія при кліку на кнопку buzz
@@ -97,7 +97,7 @@ buzz.addEventListener('click', () => {
   setTimeout(() => {
     resetChanges(buzz);
     generateRandomNumber();
-  }, 1000);
+  }, 1500);
 });
 
 // Подія при кліку на кнопку fizzbuzz
@@ -111,7 +111,7 @@ fizzbuzz.addEventListener('click', () => {
   setTimeout(() => {
     resetChanges(fizzbuzz);
     generateRandomNumber();
-  }, 1000);
+  }, 1500);
 });
 
 // Подія при кліку на кнопку next
@@ -125,5 +125,5 @@ next.addEventListener('click', () => {
   setTimeout(() => {
     resetChanges(next);
     generateRandomNumber();
-  }, 1000);
+  }, 1500);
 });
