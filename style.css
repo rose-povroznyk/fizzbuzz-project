@@ -245,6 +245,10 @@ button.btn-no {
   display: block;
 }
 
+
+
+/* Адаптація */
+
 @media screen and (max-width: 1024px) {
   .random-number {
     font-size: 8rem;
